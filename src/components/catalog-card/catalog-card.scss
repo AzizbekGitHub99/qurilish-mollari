@@ -1,0 +1,25 @@
+.catalog-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px 12px;
+  &__left {
+    .img-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 1px solid #e1e1e1;
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+  &__right {
+    h2{
+        font-weight: 500;
+        font-size: 18px;
+    }
+  }
+}
