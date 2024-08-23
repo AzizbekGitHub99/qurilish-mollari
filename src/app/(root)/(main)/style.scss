@@ -9,7 +9,7 @@
 }
 
 .hero {
-  height: 100vh;
+  height: calc(100vh - 90px);
   background-color: var(--main-color);
   padding-bottom: 60px;
   padding-top: 140px;
@@ -223,6 +223,7 @@
 }
 
 .contacts {
+  margin-bottom: 80px;
   &__container {
     display: flex;
     align-content: stretch;
