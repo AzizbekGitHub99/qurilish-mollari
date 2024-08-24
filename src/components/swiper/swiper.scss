@@ -1,0 +1,30 @@
+.swiper-slide {
+  height: 360px;
+  border-radius: 24px;
+  background-color: var(--main-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 0 100px;
+  h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 42px;
+    font-weight: 800;
+    width: 448px;
+    text-transform: uppercase;
+  }
+}
+
+.swiper-slide img {
+  object-fit: contain;
+  position: absolute;
+  right: 0px;
+  border-radius: 24px;
+  top: 0;
+}

@@ -6,6 +6,7 @@ import CatalogCard from "@/components/catalog-card";
 import ProductCard from "@/components/product-card";
 import { Icons } from "@/svg-icons";
 import Link from "next/link";
+import Slider from "@/components/swiper";
 
 export default function Home() {
   return (
@@ -221,6 +222,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="discount">
+        <div className="container">
+          <Slider />
+        </div>
+      </section>
       <section className="about">
         <div className="container">
           <h1 className="title">О нас</h1>
@@ -340,6 +346,11 @@ export default function Home() {
               <Image src="/assets/images/blog.jpg" fill alt="blog" />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="discount">
+        <div className="container">
+          <Slider />
         </div>
       </section>
       <section className="contacts">
